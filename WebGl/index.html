@@ -52,18 +52,20 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/xyz.loader.js";
+      var loaderUrl = buildUrl + "/WebGl.loader.js";
       var config = {
-        arguments: [],
-        dataUrl: buildUrl + "/xyz.data",
-        frameworkUrl: buildUrl + "/xyz.framework.js",
-        codeUrl: buildUrl + "/xyz.wasm",
-        streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "Zombiee Runner",
-        productVersion: "0.1",
-        showBanner: unityShowBanner,
-      };
+  arguments: [],
+  dataUrl: buildUrl + "/WebGl.data",
+  frameworkUrl: buildUrl + "/WebGl.framework.js",
+  codeUrl: buildUrl + "/WebGl.wasm",
+  streamingAssetsUrl: "StreamingAssets",
+  companyName: "CKs-Dev",
+  productName: "ZombieeHunt",
+  productVersion: "0.1",
+  showBanner: unityShowBanner,
+};
+
+
 
       // By default, Unity keeps WebGL canvas render target size matched with
       // the DOM size of the canvas element (scaled by window.devicePixelRatio)
